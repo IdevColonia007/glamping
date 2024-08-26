@@ -129,7 +129,7 @@ body {
   }
   
   .btn:hover {
-    background-color: ##C2A77D;
+    background-color: #C2A77D;
   }
   
   /* Estilos de la sección "Sobre" */
@@ -236,30 +236,30 @@ body {
   }
   
   .card:hover:after {
-    background-image: url("/imagenes/Casino.jpeg");
+    background-image: url("./imagenes/Casino.jpeg");
     background-position: center;
     background-size: cover;
     
   }
   
   #carta2:hover::after {
-    background-image: url("/imagenes/Restaurante.png");
+    background-image: url("./imagenes/Restaurante.png");
   }
   
   #carta3:hover::after {
-    background-image: url("/imagenes/spa.png");
+    background-image: url("./imagenes/spa.png");
   }
   
   #carta4:hover::after {
-    background-image: url("/imagenes/Toures.jpeg");
+    background-image: url("./imagenes/Toures.jpeg");
   }
   
   #carta5:hover::after {
-    background-image: url("/imagenes/Habitaciones sencillas.jpeg");
+    background-image: url("./imagenes/Habitaciones_sencillas.jpeg");
   }
   
   #carta6:hover::after {
-    background-image: url("/imagenes/habitaciones lujosas.jpeg");
+    background-image: url("./imagenes/habitaciones_lujosas.jpeg");
   }
 
 
@@ -275,13 +275,13 @@ body {
   footer {
     background-image: linear-gradient(to right, var(--azul-profundo), var(--terracota));
     color: #fff;
-    width: 100%
+    width: 100%;
     padding: 0px;
-    text-align: :right;
+    text-align: right;
     margin: -14px;
     font-size: 14px;
     font-family: Lateef; /* O la fuente que estés usando */
-    overflow: hidden
+    overflow: hidden;
   }
 
   footer h3 {
